@@ -15,6 +15,10 @@
 		CC14944E1EFC46E200767677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC14944C1EFC46E200767677 /* LaunchScreen.storyboard */; };
 		CC1494591EFC46E200767677 /* RemindMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1494581EFC46E200767677 /* RemindMeTests.swift */; };
 		CC1494641EFC46E200767677 /* RemindMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1494631EFC46E200767677 /* RemindMeUITests.swift */; };
+		CC35662F1EFC924A005E3116 /* TodoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35662E1EFC924A005E3116 /* TodoListTableViewController.swift */; };
+		CC3566311EFC93D5005E3116 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3566301EFC93D5005E3116 /* TodoTableViewCell.swift */; };
+		CC3566331EFCAF19005E3116 /* TaskObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3566321EFCAF19005E3116 /* TaskObject.swift */; };
+		CC3566351EFCB96A005E3116 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3566341EFCB96A005E3116 /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		CC14945F1EFC46E200767677 /* RemindMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1494631EFC46E200767677 /* RemindMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeUITests.swift; sourceTree = "<group>"; };
 		CC1494651EFC46E200767677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC35662E1EFC924A005E3116 /* TodoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListTableViewController.swift; sourceTree = "<group>"; };
+		CC3566301EFC93D5005E3116 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		CC3566321EFCAF19005E3116 /* TaskObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskObject.swift; sourceTree = "<group>"; };
+		CC3566341EFCB96A005E3116 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +110,11 @@
 				CC1494401EFC46E200767677 /* AppDelegate.swift */,
 				CC1494421EFC46E200767677 /* ViewController.swift */,
 				CC1494441EFC46E200767677 /* Main.storyboard */,
+				CC3566321EFCAF19005E3116 /* TaskObject.swift */,
 				CC14944A1EFC46E200767677 /* Assets.xcassets */,
+				CC3566301EFC93D5005E3116 /* TodoTableViewCell.swift */,
+				CC35662E1EFC924A005E3116 /* TodoListTableViewController.swift */,
+				CC3566341EFCB96A005E3116 /* CreateTaskViewController.swift */,
 				CC14944C1EFC46E200767677 /* LaunchScreen.storyboard */,
 				CC14944F1EFC46E200767677 /* Info.plist */,
 				CC1494471EFC46E200767677 /* RemindMe.xcdatamodeld */,
@@ -265,6 +277,10 @@
 				CC1494431EFC46E200767677 /* ViewController.swift in Sources */,
 				CC1494411EFC46E200767677 /* AppDelegate.swift in Sources */,
 				CC1494491EFC46E200767677 /* RemindMe.xcdatamodeld in Sources */,
+				CC3566311EFC93D5005E3116 /* TodoTableViewCell.swift in Sources */,
+				CC35662F1EFC924A005E3116 /* TodoListTableViewController.swift in Sources */,
+				CC3566331EFCAF19005E3116 /* TaskObject.swift in Sources */,
+				CC3566351EFCB96A005E3116 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
